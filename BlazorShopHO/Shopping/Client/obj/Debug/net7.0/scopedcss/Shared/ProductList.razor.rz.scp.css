@@ -1,0 +1,41 @@
+.media-img[b-waw6s6u8lp]{
+    max-height: 200px;
+    max-width: 200px;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    transition: transform .2s;
+}
+
+.media-img:hover[b-waw6s6u8lp]{
+    transform: scale(1.1);
+
+}
+
+.media[b-waw6s6u8lp] {
+    display: flex;
+    align-items: flex-start;
+}
+
+.media-body[b-waw6s6u8lp]{
+    flex: 1;
+}
+
+.media-img-wrapper[b-waw6s6u8lp]{
+    width: 200px;
+    text-align: center;
+}
+
+.price[b-waw6s6u8lp]{
+    color: blueviolet;
+}
+
+@media(max-width: 1023.98px){
+    .media[b-waw6s6u8lp] {
+        flex-direction: column;
+    }
+
+    .media-img-wrapper[b-waw6s6u8lp]{
+        width: 100%;
+        height: auto;
+    }
+}

@@ -1,0 +1,217 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Workspace\\Projetos\\Shoppings\\BlazorShopHO\\Shopping\\Server\\Shopping.Server.csproj": {}
+  },
+  "projects": {
+    "C:\\Workspace\\Projetos\\Shoppings\\BlazorShopHO\\Shopping\\Client\\Shopping.Client.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Workspace\\Projetos\\Shoppings\\BlazorShopHO\\Shopping\\Client\\Shopping.Client.csproj",
+        "projectName": "Shopping.Client",
+        "projectPath": "C:\\Workspace\\Projetos\\Shoppings\\BlazorShopHO\\Shopping\\Client\\Shopping.Client.csproj",
+        "packagesPath": "C:\\Users\\oktug\\.nuget\\packages\\",
+        "outputPath": "C:\\Workspace\\Projetos\\Shoppings\\BlazorShopHO\\Shopping\\Client\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\oktug\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Workspace\\Projetos\\Shoppings\\BlazorShopHO\\Shopping\\Shared\\Shopping.Shared.csproj": {
+                "projectPath": "C:\\Workspace\\Projetos\\Shoppings\\BlazorShopHO\\Shopping\\Shared\\Shopping.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Components.WebAssembly": {
+              "target": "Package",
+              "version": "[7.0.2, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly.DevServer": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "browser-wasm": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\Workspace\\Projetos\\Shoppings\\BlazorShopHO\\Shopping\\Server\\Shopping.Server.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Workspace\\Projetos\\Shoppings\\BlazorShopHO\\Shopping\\Server\\Shopping.Server.csproj",
+        "projectName": "Shopping.Server",
+        "projectPath": "C:\\Workspace\\Projetos\\Shoppings\\BlazorShopHO\\Shopping\\Server\\Shopping.Server.csproj",
+        "packagesPath": "C:\\Users\\oktug\\.nuget\\packages\\",
+        "outputPath": "C:\\Workspace\\Projetos\\Shoppings\\BlazorShopHO\\Shopping\\Server\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\oktug\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Workspace\\Projetos\\Shoppings\\BlazorShopHO\\Shopping\\Client\\Shopping.Client.csproj": {
+                "projectPath": "C:\\Workspace\\Projetos\\Shoppings\\BlazorShopHO\\Shopping\\Client\\Shopping.Client.csproj"
+              },
+              "C:\\Workspace\\Projetos\\Shoppings\\BlazorShopHO\\Shopping\\Shared\\Shopping.Shared.csproj": {
+                "projectPath": "C:\\Workspace\\Projetos\\Shoppings\\BlazorShopHO\\Shopping\\Shared\\Shopping.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Components.WebAssembly.Server": {
+              "target": "Package",
+              "version": "[7.0.2, )"
+            },
+            "microsoft.entityframeworkcore.sqlserver": {
+              "target": "Package",
+              "version": "[7.0.2, )"
+            },
+            "microsoft.entityframeworkcore.tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.2, )"
+            },
+            "swashbuckle.aspnetcore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Workspace\\Projetos\\Shoppings\\BlazorShopHO\\Shopping\\Shared\\Shopping.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Workspace\\Projetos\\Shoppings\\BlazorShopHO\\Shopping\\Shared\\Shopping.Shared.csproj",
+        "projectName": "Shopping.Shared",
+        "projectPath": "C:\\Workspace\\Projetos\\Shoppings\\BlazorShopHO\\Shopping\\Shared\\Shopping.Shared.csproj",
+        "packagesPath": "C:\\Users\\oktug\\.nuget\\packages\\",
+        "outputPath": "C:\\Workspace\\Projetos\\Shoppings\\BlazorShopHO\\Shopping\\Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\oktug\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
